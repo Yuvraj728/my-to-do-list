@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    max-width: 300px;
+    margin: 50px auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.divider {
+    margin: 20px 0;
+    color: #888;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
