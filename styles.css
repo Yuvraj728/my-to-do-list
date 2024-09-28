@@ -50,3 +50,7 @@ button:hover {
     text-decoration: line-through;
     color: gray;
 }
+
+.task-list {
+    cursor: pointer;
+}
